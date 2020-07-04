@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialised;
+  box-sizing: border-box;
+}
+
+body {
+  font: 13px/1.5 Helvetica, Sans-serif;
+  color: #313131;
+}
+
+.container {
+  width: 90%;
+  margin: 15px auto;
+}
+
+.row {
+  width: 100%;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+[class*="g-"] {
+  float: left;
+  padding: 0 15px;
+}
+
+.g-1 {
+  width: 8.33%;
+}
+
+.g-2 {
+  width: 16.66%;
+}
+
+.g-3 {
+  width: 25%;
+}
+
+.g-4 {
+  width: 33.33%;
+}
+
+.g-5 {
+  width: 41.66;
+}
+
+.g-6 {
+  width: 50%;
+}
+
+.g-7 {
+  width: 58.33%;
+}
+
+.g-8 {
+  width: 66.66%;
+}
+
+.g-9 {
+  width: 75%;
+}
+
+.g-10 {
+  width: 83.33%;
+}
+
+.g-11 {
+  width: 91.66%;
+}
+
+.g-12 {
+  width: 100%;
+}
+
+.gcolor {
+  background-color: #ccc;
+  min-height: 25px;
+}
+
+header {
+  background-color: #d00118;
+}
+
+.brand h1 {
+  font-family: "Avenir Next", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  width: auto;
+}
+/* mobile device */
+@media (max-width: 767px) {
+}
+
+/* tablet device */
+@media (min-width: 768px) {
+  header {
+    padding: 15px 0;
+  }
+
+  header::after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
+  header .brand {
+    width: 200px;
+    float: left;
+  }
+
+  header .nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: auto;
+    float: right;
+  }
+
+  header nav li {
+    float: left;
+  }
+  header nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .banner{
+    background-image: url(imag  b );
+  }
+}
+
+/* small laptop */
+@media (min-width: 992px) {
+}
+
+/* desktop device */
+@media (min-width: 1200px) {
+}
